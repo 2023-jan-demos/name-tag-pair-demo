@@ -11,6 +11,9 @@ console.log('nameDisplay', nameDisplay);
 /* State */
 
 /* Events */
+submitBtn.addEventListener('click', () => {
+    console.log('clicking the button');
+});
 
 /* Display Functions */
 
