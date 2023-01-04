@@ -13,6 +13,8 @@ console.log('nameDisplay', nameDisplay);
 /* Events */
 submitBtn.addEventListener('click', () => {
     console.log('clicking the button');
+    nameDisplay.textContent = nameInput.value;
+    nameInput.value = '';
 });
 
 /* Display Functions */
