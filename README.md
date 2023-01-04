@@ -1,4 +1,4 @@
-![name tage wire frame](./assets/wireframe.png)
+![name tag wire frame](./assets/wireframe.png)
 
 # STATE
 Display name
