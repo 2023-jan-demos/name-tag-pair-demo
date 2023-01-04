@@ -3,16 +3,16 @@ const nameInput = document.getElementById('name-input');
 const submitBtn = document.getElementById('submit-button');
 const nameDisplay = document.getElementById('name-display');
 
-console.log('nameInput', nameInput);
-console.log('submitBtn', submitBtn);
-console.log('nameDisplay', nameDisplay);
+// console.log('nameInput', nameInput);
+// console.log('submitBtn', submitBtn);
+// console.log('nameDisplay', nameDisplay);
 /* Get DOM Elements */
 
 /* State */
 
 /* Events */
 submitBtn.addEventListener('click', () => {
-    console.log('clicking the button');
+    // console.log('clicking the button');
     nameDisplay.textContent = nameInput.value;
     nameInput.value = '';
 });
